@@ -93,3 +93,32 @@ padding: 20px;
 font-size: 0.9rem;
 color: #777;
 }
+
+header {
+background-color: #004a99; /* The blue background from your logo */
+padding: 40px 20px;
+text-align: center;
+color: white;
+}
+
+.main-logo {
+width: 250px; /* Adjust this number to make the logo bigger or smaller */
+height: auto; /* Keeps the logo from looking stretched */
+margin-bottom: 15px;
+border-radius: 50%; /* Only use this if your logo is a circle */
+background: white; /* Gives it a clean white background if it's transparent */
+padding: 10px;
+box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+header h1 {
+font-size: 2.2rem;
+margin-bottom: 5px;
+letter-spacing: 1px;
+}
+
+.tagline {
+font-size: 1.1rem;
+opacity: 0.9;
+}
+
